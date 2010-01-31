@@ -1,6 +1,6 @@
 Summary:	An implementation of LaTeX math mode wrote in Java
 Name:		jlatexmath
-Version:	0.5
+Version:	0.8.5
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Development/Java
