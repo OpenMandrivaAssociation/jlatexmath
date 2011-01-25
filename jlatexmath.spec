@@ -9,6 +9,8 @@ Source0:	jlatexmath-src-all-0.9.3.zip
 BuildRequires:	ant >= 0:1.6
 BuildRequires:	java-rpmbuild
 BuildRequires:	jpackage-utils >= 0:1.6
+BuildRequires:	xml-commons-jaxp-1.3-apis
+BuildRequires:	xmlgraphics-commons
 Requires:	jpackage-utils
 BuildArch:      noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
