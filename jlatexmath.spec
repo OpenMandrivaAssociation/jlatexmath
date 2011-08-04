@@ -10,6 +10,7 @@ BuildRequires:	ant >= 0:1.6
 BuildRequires:	fop
 BuildRequires:	java-rpmbuild
 BuildRequires:	jpackage-utils >= 0:1.6
+BuildRequires:	xalan-j2
 BuildRequires:	xml-commons-apis
 BuildRequires:	xml-commons-jaxp-1.3-apis
 BuildRequires:	xmlgraphics-commons
