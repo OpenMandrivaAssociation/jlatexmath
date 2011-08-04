@@ -1,11 +1,11 @@
 Summary:	An implementation of LaTeX math mode wrote in Java
 Name:		jlatexmath
-Version:	0.9.3
+Version:	0.9.6
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Development/Java
 URL:		http://forge.scilab.org/index.php/p/jlatexmath/
-Source0:	jlatexmath-src-all-0.9.3.zip
+Source0:	%{name}-src-all-%{version}.zip
 BuildRequires:	ant >= 0:1.6
 BuildRequires:	fop
 BuildRequires:	java-rpmbuild
@@ -21,7 +21,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 JLaTeXMath is an implementation of LaTeX math mode wrote in Java.
 
 %prep
-%setup -q -c -n %{name}
+%setup -q
 
 # remove all binary libs
 find -type f -name "*.jar" -exec rm -rf {} \;
