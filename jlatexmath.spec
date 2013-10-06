@@ -16,7 +16,6 @@ BuildRequires:	xml-commons-jaxp-1.3-apis
 BuildRequires:	xmlgraphics-commons
 Requires:	jpackage-utils
 BuildArch:      noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 JLaTeXMath is an implementation of LaTeX math mode wrote in Java.
@@ -33,7 +32,6 @@ export OPT_JAR_LIST=:
 %ant minimal fop
 
 %install
-rm -rf %{buildroot}
 
 # jars
 mkdir -p %{buildroot}%{_javadir}
@@ -47,10 +45,8 @@ pushd  %{buildroot}%{_javadir}
 popd
 
 %clean
-rm -rf %{buildroot}
 
 %files
-%defattr(-,root,root)
 %{_javadir}/*.jar
 
 
