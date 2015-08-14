@@ -1,8 +1,8 @@
 Summary:	An implementation of LaTeX math mode wrote in Java
 
 Name:		jlatexmath
-Version:	1.0.2
-Release:	3
+Version:	1.0.3
+Release:	1
 License:	GPLv2+
 Group:		Development/Java
 URL:		http://forge.scilab.org/index.php/p/jlatexmath/
