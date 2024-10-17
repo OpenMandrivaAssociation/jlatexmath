@@ -5,7 +5,7 @@ Version:	1.0.3
 Release:	1
 License:	GPLv2+
 Group:		Development/Java
-URL:		http://forge.scilab.org/index.php/p/jlatexmath/
+URL:		https://forge.scilab.org/index.php/p/jlatexmath/
 Source0:	%{name}-src-all-%{version}.zip
 BuildRequires:	ant >= 0:1.6
 BuildRequires:	fop
